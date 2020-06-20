@@ -1,0 +1,55 @@
+{
+  "name": "ngx-loggly-logger",
+  "version": "5.0.2",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgure/ngx-loggly-logger"
+  },
+  "author": {
+    "name": "Aaron Newman",
+    "email": "aftermathinc@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "ngx",
+    "loggly",
+    "loggly logger"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgure/ngx-loggly-logger/issues"
+  },
+  "devDependencies": {
+    "@angular/common": "^5.2.3",
+    "@angular/core": "^5.2.3",
+    "@angular/compiler": "^5.2.3",
+    "@angular/compiler-cli": "^5.2.3",
+    "@angular/platform-browser": "^5.2.3",
+    "@angular/platform-browser-dynamic": "^5.2.3",
+    "@types/jasmine": "2.8.6",
+    "@types/node": "~9.4.0",
+    "codelyzer": "~4.1.0",
+    "ng-packagr": "^1.7.0",
+    "rxjs": "^5.5.6",
+    "ts-node": "~4.1.0",
+    "tslint": "~5.9.1",
+    "typescript": "2.7.1",
+    "zone.js": "^0.8.20"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@angular/http": "^5.2.3",
+    "ng2-cookies": "^1.0.12",
+    "rxjs": "^5.5.6"
+  }
+}
