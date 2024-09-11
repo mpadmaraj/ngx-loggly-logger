@@ -15,7 +15,7 @@ export * from './loggly.service';
 })
 export class NgxLogglyModule {
   static forRoot(): ModuleWithProviders {
-    let s="";
+    let s="a";
     return {
       ngModule: NgxLogglyModule,
       providers: [LogglyService]
